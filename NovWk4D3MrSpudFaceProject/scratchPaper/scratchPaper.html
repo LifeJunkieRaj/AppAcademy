@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.addEventListener('DOMContentLoaded', event => {
+        function handler(e) {
+          console.log(e.currentTarget.tagName);
+        }
+        document.querySelector('main').addEventListener('click', handler);
+        document.querySelector('div').addEventListener('click', handler);
+        document.querySelector('p').addEventListener('click', handler);
+      });
+    </script>
+  </head>
+  <body>
+    <main>
+      <div>
+        <p>This is a paragraph in a div in a main in a body in an html</p>
+        <ul id="my-list">
+            <li>This is list item 1.</li>
+            <li>This is list item 2.</li>
+            <li>This is list item 3.</li>
+            <li>This is list item 4.</li>
+            <li>This is list item 5.</li>
+          </ul>
+      </div>
+    </main>
+  </body>
+</html>
