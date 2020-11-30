@@ -30,7 +30,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     if (licenseNum !== confirmLicenseNum) {
       event.preventDefault();
-      alert("Emergency!!! PWs DO NOT MATCH!");
+      alert("Emergency!!! NUMBERS DO NOT MATCH!");
     } else {
       alert("Your form was successfully submitted!");
       updateClickCount();
